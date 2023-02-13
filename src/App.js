@@ -12,9 +12,13 @@ function App() {
   return (
     <Router>
    <div className="app">
+   <Header />
+
+
+
    <Switch>
     <Route path="/checkout">
-    <Header />
+    <h1>Login Page</h1>
      <Checkout />
     </Route>
     <Route path="/">
